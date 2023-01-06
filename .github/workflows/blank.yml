@@ -31,11 +31,11 @@ jobs:
         
       - name: Post comment
         uses: mshick/add-pr-comment@v1
-        if: $
+        if: ${{ steps.write-good.outputs.result }}
         with:
             message: |
-              $
-            repo-token: $
+              ${{ steps.write-good.outputs.result }}
+            repo-token: ${{ secrets.GITHUB_TOKEN }}
             repo-token-user-login: 'github-actions[bot]' # The user.login for temporary GitHub tokens
             allow-repeats: false # This is the default
 
