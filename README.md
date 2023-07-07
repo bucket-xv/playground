@@ -16,3 +16,5 @@ Then make a commit.
 After that, make yet another branch and do a commit.
 
 ## section 3
+
+another try regarding rebase.
