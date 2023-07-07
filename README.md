@@ -13,4 +13,4 @@ Let's see how merge works.
 now let's try the rebase order.
 I construct a branch first.
 Then make a commit.
-Yes! a commit!
+After that, make yet another branch and do a commit.
